@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>aula15</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1 onclick="changeText(this)">Clique no Texto</h1>
+	<script src="aula15.js">
+	</script>
+
+	<!--Evento onclick a um elemento de botao-->
+	<button onclick="displayDate()">Data</button>
+	<p id="demo"></p>
+	<!--Exemplo de mouse over e mouse out-->
+	<div onmouseover="mOver(this)"onmouseout="mOut(this)"
+	style=background-color:#D94A38;width:120px;height:50px;
+	padding:40px;>Passe o Mouse </div>
+<!--Exemplo de mouse up e down muda o elemento quando
+ o usuario mantem precionado o botao do mouse-->
+ <div onmousedown="mDown(this)"onmouseup="mUp(this)"
+  style=background-color:#76A;width:90px;height:50px;
+	padding:40px;>Oi!!!</div>
+	<!--duplo click-->
+	<p ondblclick="myFunction()">Clique duas vezes para ativar a funçao</p>
+	<p id="demo1"></p>
+</body>
+</html>
